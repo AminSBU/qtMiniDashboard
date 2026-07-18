@@ -143,6 +143,12 @@
 		<Unit filename="D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/qml.qrc">
 			<Option target="qtMiniDashboard"/>
 		</Unit>
+		<Unit filename="D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/weather.cpp">
+			<Option target="qtMiniDashboard"/>
+		</Unit>
+		<Unit filename="D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/weather.h">
+			<Option target="qtMiniDashboard"/>
+		</Unit>
 		<Unit filename="D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
