@@ -4,8 +4,9 @@ import QtQuick.Controls 2.12
 
 ApplicationWindow  {
     visible: true
-    width: 800
-    height: 600
+    width: Screen.width * 0.8
+    height: Screen.height * 0.8
+
     title: qsTr("Hello World")
 
     background: Rectangle
