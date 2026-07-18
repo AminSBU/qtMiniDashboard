@@ -12,6 +12,8 @@ class weather : public QObject
 public:
     explicit weather(QObject *parent = nullptr);
 
+    Q_INVOKABLE void fetchWeather(const QString &cityName);
+
 signals:
 
 };
