@@ -38,18 +38,21 @@ ApplicationWindow  {
             Layout.fillWidth: true
             Layout.preferredHeight: 40
             border.color: "white"
+            radius: 10
             color: "transparent"
         }
         Rectangle {
             Layout.fillWidth: true
             Layout.preferredHeight: 40
             border.color: "white"
+            radius: 10
             color: "transparent"
         }
         Rectangle {
             Layout.fillWidth: true
             Layout.preferredHeight: 40
             border.color: "white"
+            radius: 10
             color: "transparent"
         }
     }
