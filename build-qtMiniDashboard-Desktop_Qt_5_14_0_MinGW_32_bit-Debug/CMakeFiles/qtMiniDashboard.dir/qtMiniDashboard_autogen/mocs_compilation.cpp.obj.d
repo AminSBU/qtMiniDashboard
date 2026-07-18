@@ -1,0 +1,2 @@
+CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/mocs_compilation.cpp.obj: \
+ D:\02_github\01_AminSBU\26_qtMiniDashboard\build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug\qtMiniDashboard_autogen\mocs_compilation.cpp
