@@ -1,10 +1,9 @@
 #ifndef WEATHER_H
 #define WEATHER_H
 
-#include <QDeclarativeItem>
-#include <QMainWindow>
 #include <QObject>
 #include <QQuickItem>
+#include <QNetworkAccessManager>
 
 class weather : public QObject
 {
@@ -12,7 +11,7 @@ class weather : public QObject
 public:
     explicit weather(QObject *parent = nullptr);
 
-    Q_INVOKABLE void fetchWeather(const QString &cityName);
+private:
 
 signals:
 

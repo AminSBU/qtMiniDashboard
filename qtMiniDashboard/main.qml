@@ -10,6 +10,21 @@ ApplicationWindow  {
     height: Screen.height * 0.8
     title: qsTr("Hello World")
 
+    property date currentDateTime: new Date()
+
+    Timer
+    {
+        interval: 1000
+        running: true
+        repeat: true
+        triggeredOnStart: true
+
+        onTriggered:
+        {
+            currentDateTime = new Date()
+        }
+    }
+
     background: Rectangle
     {
         gradient: Gradient
@@ -27,33 +42,55 @@ ApplicationWindow  {
         }
     }
 
-    GridLayout{
-        id: grid
-        anchors.fill: parent
-        columns: 3
-        columnSpacing: 10
-        rowSpacing: 8
+    RowLayout
+    {
+        id: headerLayout
 
-        Rectangle {
-            Layout.fillWidth: true
-            Layout.preferredHeight: 40
-            border.color: "white"
-            radius: 10
-            color: "transparent"
+        anchors {
+            top: parent.top
+            left: parent.left
+            right: parent.right
+
+            topMargin: 20
+            leftMargin: 20
+            rightMargin: 20
         }
-        Rectangle {
-            Layout.fillWidth: true
-            Layout.preferredHeight: 40
-            border.color: "white"
-            radius: 10
-            color: "transparent"
+
+        height: 50
+        spacing: 10
+
+        Text {
+            id: timeText
+
+            text: Qt.formatDateTime(
+                      main.currentDateTime,
+                      "yyyy/MM/dd  HH:mm:ss"
+                  )
+
+            color: "white"
+            font.pixelSize: 20
+
+            horizontalAlignment: Text.AlignLeft
+            verticalAlignment: Text.AlignVCenter
         }
-        Rectangle {
+
+        Item {
             Layout.fillWidth: true
-            Layout.preferredHeight: 40
-            border.color: "white"
-            radius: 10
-            color: "transparent"
+        }
+
+        Text {
+            id: dayNameText
+
+            text: Qt.formatDateTime(
+                      main.currentDateTime,
+                      "dddd"
+                  )
+
+            color: "white"
+            font.pixelSize: 20
+
+            horizontalAlignment: Text.AlignRight
+            verticalAlignment: Text.AlignVCenter
         }
     }
 }

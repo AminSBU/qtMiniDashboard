@@ -213,30 +213,6 @@ qtMiniDashboard_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qtMiniDashboard.dir\build.make CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/mocs_compilation.cpp.s
 .PHONY : qtMiniDashboard_autogen/mocs_compilation.cpp.s
 
-weather.obj: weather.cpp.obj
-.PHONY : weather.obj
-
-# target to build an object file
-weather.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\qtMiniDashboard.dir\build.make CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj
-.PHONY : weather.cpp.obj
-
-weather.i: weather.cpp.i
-.PHONY : weather.i
-
-# target to preprocess a source file
-weather.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\qtMiniDashboard.dir\build.make CMakeFiles/qtMiniDashboard.dir/weather.cpp.i
-.PHONY : weather.cpp.i
-
-weather.s: weather.cpp.s
-.PHONY : weather.s
-
-# target to generate assembly for a file
-weather.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\qtMiniDashboard.dir\build.make CMakeFiles/qtMiniDashboard.dir/weather.cpp.s
-.PHONY : weather.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -256,9 +232,6 @@ help:
 	@echo ... qtMiniDashboard_autogen/mocs_compilation.obj
 	@echo ... qtMiniDashboard_autogen/mocs_compilation.i
 	@echo ... qtMiniDashboard_autogen/mocs_compilation.s
-	@echo ... weather.obj
-	@echo ... weather.i
-	@echo ... weather.s
 .PHONY : help
 
 

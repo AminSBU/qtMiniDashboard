@@ -30,15 +30,11 @@ if(ANDROID)
     add_library(qtMiniDashboard SHARED
       main.cpp
       qml.qrc
-      weather.cpp
-      weather.h
     )
 else()
     add_executable(qtMiniDashboard
       main.cpp
       qml.qrc
-      weather.cpp
-      weather.h
     )
 endif()
 

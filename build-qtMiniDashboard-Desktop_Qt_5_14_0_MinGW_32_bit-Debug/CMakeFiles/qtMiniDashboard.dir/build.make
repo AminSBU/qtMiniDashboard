@@ -109,26 +109,11 @@ CMakeFiles/qtMiniDashboard.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtMiniDashboard.dir/main.cpp.s"
 	C:\Qt\Qt5.14.0\Tools\mingw730_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\02_github\01_AminSBU\26_qtMiniDashboard\qtMiniDashboard\main.cpp -o CMakeFiles\qtMiniDashboard.dir\main.cpp.s
 
-CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj: CMakeFiles/qtMiniDashboard.dir/flags.make
-CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj: CMakeFiles/qtMiniDashboard.dir/includes_CXX.rsp
-CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/weather.cpp
-CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj: CMakeFiles/qtMiniDashboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\02_github\01_AminSBU\26_qtMiniDashboard\build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj"
-	C:\Qt\Qt5.14.0\Tools\mingw730_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj -MF CMakeFiles\qtMiniDashboard.dir\weather.cpp.obj.d -o CMakeFiles\qtMiniDashboard.dir\weather.cpp.obj -c D:\02_github\01_AminSBU\26_qtMiniDashboard\qtMiniDashboard\weather.cpp
-
-CMakeFiles/qtMiniDashboard.dir/weather.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtMiniDashboard.dir/weather.cpp.i"
-	C:\Qt\Qt5.14.0\Tools\mingw730_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\02_github\01_AminSBU\26_qtMiniDashboard\qtMiniDashboard\weather.cpp > CMakeFiles\qtMiniDashboard.dir\weather.cpp.i
-
-CMakeFiles/qtMiniDashboard.dir/weather.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtMiniDashboard.dir/weather.cpp.s"
-	C:\Qt\Qt5.14.0\Tools\mingw730_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\02_github\01_AminSBU\26_qtMiniDashboard\qtMiniDashboard\weather.cpp -o CMakeFiles\qtMiniDashboard.dir\weather.cpp.s
-
 CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj: CMakeFiles/qtMiniDashboard.dir/flags.make
 CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj: CMakeFiles/qtMiniDashboard.dir/includes_CXX.rsp
 CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj: qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp
 CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj: CMakeFiles/qtMiniDashboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\02_github\01_AminSBU\26_qtMiniDashboard\build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\02_github\01_AminSBU\26_qtMiniDashboard\build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
 	C:\Qt\Qt5.14.0\Tools\mingw730_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj -MF CMakeFiles\qtMiniDashboard.dir\qtMiniDashboard_autogen\EWIEGA46WW\qrc_qml.cpp.obj.d -o CMakeFiles\qtMiniDashboard.dir\qtMiniDashboard_autogen\EWIEGA46WW\qrc_qml.cpp.obj -c D:\02_github\01_AminSBU\26_qtMiniDashboard\build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug\qtMiniDashboard_autogen\EWIEGA46WW\qrc_qml.cpp
 
 CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.i: cmake_force
@@ -143,7 +128,6 @@ CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.s:
 qtMiniDashboard_OBJECTS = \
 "CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/qtMiniDashboard.dir/main.cpp.obj" \
-"CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj" \
 "CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
 
 # External object files for target qtMiniDashboard
@@ -151,7 +135,6 @@ qtMiniDashboard_EXTERNAL_OBJECTS =
 
 qtMiniDashboard.exe: CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/mocs_compilation.cpp.obj
 qtMiniDashboard.exe: CMakeFiles/qtMiniDashboard.dir/main.cpp.obj
-qtMiniDashboard.exe: CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj
 qtMiniDashboard.exe: CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj
 qtMiniDashboard.exe: CMakeFiles/qtMiniDashboard.dir/build.make
 qtMiniDashboard.exe: C:/Qt/Qt5.14.0/5.14.0/mingw73_32/lib/libQt5Quick.a
@@ -163,7 +146,7 @@ qtMiniDashboard.exe: C:/Qt/Qt5.14.0/5.14.0/mingw73_32/lib/libQt5Core.a
 qtMiniDashboard.exe: CMakeFiles/qtMiniDashboard.dir/linkLibs.rsp
 qtMiniDashboard.exe: CMakeFiles/qtMiniDashboard.dir/objects1.rsp
 qtMiniDashboard.exe: CMakeFiles/qtMiniDashboard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\02_github\01_AminSBU\26_qtMiniDashboard\build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable qtMiniDashboard.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\02_github\01_AminSBU\26_qtMiniDashboard\build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable qtMiniDashboard.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\qtMiniDashboard.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

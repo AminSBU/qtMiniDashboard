@@ -96,15 +96,7 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : 
-	[
-		[
-			"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/weather.h",
-			"MU",
-			"EWIEGA46WW/moc_weather.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "D:/02_github/01_AminSBU/26_qtMiniDashboard/build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug/qtMiniDashboard_autogen/include",
 	"MOC_COMPILATION_FILE" : "D:/02_github/01_AminSBU/26_qtMiniDashboard/build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug/qtMiniDashboard_autogen/mocs_compilation.cpp",
@@ -172,11 +164,6 @@
 	[
 		[
 			"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/main.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/weather.cpp",
 			"MU",
 			null
 		]

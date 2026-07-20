@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp.obj.d"
   "CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/qtMiniDashboard.dir/qtMiniDashboard_autogen/mocs_compilation.cpp.obj.d"
-  "CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj"
-  "CMakeFiles/qtMiniDashboard.dir/weather.cpp.obj.d"
   "CMakeFiles/qtMiniDashboard_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/qtMiniDashboard_autogen.dir/ParseCache.txt"
   "qtMiniDashboard_autogen"
