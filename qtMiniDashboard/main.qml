@@ -1,7 +1,7 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
-import QtQuick.Layouts 1.0
+import QtQuick.Layouts 1.14
 
 ApplicationWindow  {
     id: main
@@ -47,15 +47,14 @@ ApplicationWindow  {
 
         gradient: Gradient
         {
-            GradientStop{
+            GradientStop {
                 position: 0.0
-                color: "#56CCF2"
+                color: "#29323c"
             }
 
-            GradientStop
-            {
+            GradientStop {
                 position: 1.0
-                color: "#2F80ED"
+                color: "#485563"
             }
         }
 
@@ -89,6 +88,7 @@ ApplicationWindow  {
                       )
 
                 color: "white"
+
                 font.pixelSize: 20
 
                 Layout.alignment: Qt.AlignVCenter
@@ -110,6 +110,183 @@ ApplicationWindow  {
                 font.pixelSize: 20
 
                 Layout.alignment: Qt.AlignVCenter
+            }
+        }
+    }
+
+    StackLayout {
+        id: pagesLayout
+
+        anchors {
+            top: headerBackground.bottom
+            bottom: footerBackground.top
+            left: parent.left
+            right: parent.right
+        }
+
+        currentIndex: main.currentPageIndex
+
+        Page {
+            background: Rectangle {
+                color: "transparent"
+            }
+
+            Text {
+                anchors.centerIn: parent
+                text: "صفحه اصلی"
+                color: "#2F80ED"
+                font.pixelSize: 32
+                font.bold: true
+            }
+        }
+
+        Page {
+            background: Rectangle {
+                color: "transparent"
+            }
+
+            Text {
+                anchors.centerIn: parent
+                text: "مدیریت شارژرها"
+                color: "#2F80ED"
+                font.pixelSize: 32
+                font.bold: true
+            }
+        }
+
+        Page {
+            background: Rectangle {
+                color: "transparent"
+            }
+
+            Text {
+                anchors.centerIn: parent
+                text: "گزارش‌ها"
+                color: "#2F80ED"
+                font.pixelSize: 32
+                font.bold: true
+            }
+        }
+
+        Page {
+            background: Rectangle {
+                color: "transparent"
+            }
+
+            Text {
+                anchors.centerIn: parent
+                text: "تنظیمات"
+                color: "#2F80ED"
+                font.pixelSize: 32
+                font.bold: true
+            }
+        }
+
+        Page {
+            background: Rectangle {
+                color: "transparent"
+            }
+
+            Text {
+                anchors.centerIn: parent
+                text: "درباره ما"
+                color: "#2F80ED"
+                font.pixelSize: 32
+                font.bold: true
+            }
+        }
+    }
+
+    Rectangle {
+        id: footerBackground
+
+        height: 70
+        radius: 0
+
+        anchors {
+            bottom: parent.bottom
+            left: parent.left
+            right: parent.right
+        }
+
+        gradient: Gradient {
+            GradientStop {
+                position: 0.0
+                color: "#29323c"
+            }
+
+            GradientStop {
+                position: 1.0
+                color: "#485563"
+            }
+        }
+
+        RowLayout {
+            id: footerLayout
+
+            anchors {
+                fill: parent
+                leftMargin: 30
+                rightMargin: 30
+            }
+
+            spacing: 10
+
+            Repeater {
+                model: [
+                    "صفحه اصلی",
+                    "شارژرها",
+                    "گزارش‌ها",
+                    "تنظیمات",
+                    "درباره ما"
+                ]
+
+                delegate: Rectangle {
+                    id: navigationItem
+
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
+
+                    color: main.currentPageIndex === index
+                           ? "#35FFFFFF"
+                           : "transparent"
+
+                    radius: 8
+
+                    Text {
+                        anchors.centerIn: parent
+
+                        text: modelData
+                        color: "white"
+
+                        font.pixelSize: 18
+                        font.bold: main.currentPageIndex === index
+                    }
+
+                    Rectangle {
+                        anchors {
+                            bottom: parent.bottom
+                            horizontalCenter: parent.horizontalCenter
+                            bottomMargin: 5
+                        }
+
+                        width: parent.width * 0.45
+                        height: 3
+                        radius: 2
+
+                        color: "white"
+                        visible: main.currentPageIndex === index
+                    }
+
+                    MouseArea {
+                        anchors.fill: parent
+                        cursorShape: Qt.PointingHandCursor
+
+                        onClicked: {
+                            main.currentPageIndex = index
+                        }
+                    }
+                }
             }
         }
     }
