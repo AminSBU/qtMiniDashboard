@@ -31,66 +31,86 @@ ApplicationWindow  {
         {
             GradientStop{
                 position: 0.0
-                color: "#1E3C72"
+                color: "#c9d6ff"
+            }
+
+            GradientStop
+            {
+                position: 0.1
+                color: "#e2e2e2"
+            }
+        }
+    }
+
+    Rectangle {
+        id: headerBackground
+
+        gradient: Gradient
+        {
+            GradientStop{
+                position: 0.0
+                color: "#56CCF2"
             }
 
             GradientStop
             {
                 position: 1.0
-                color: "#2A5298"
+                color: "#2F80ED"
             }
         }
-    }
 
-    RowLayout
-    {
-        id: headerLayout
+        height: 70
+        radius: 0
 
         anchors {
             top: parent.top
             left: parent.left
             right: parent.right
-
-            topMargin: 20
-            leftMargin: 20
-            rightMargin: 20
         }
 
-        height: 50
-        spacing: 10
+        RowLayout {
+            id: headerLayout
 
-        Text {
-            id: timeText
+            anchors {
+                fill: parent
 
-            text: Qt.formatDateTime(
-                      main.currentDateTime,
-                      "yyyy/MM/dd  HH:mm:ss"
-                  )
+                leftMargin: 30
+                rightMargin: 30
+            }
 
-            color: "white"
-            font.pixelSize: 20
+            spacing: 10
 
-            horizontalAlignment: Text.AlignLeft
-            verticalAlignment: Text.AlignVCenter
-        }
+            Text {
+                id: timeText
 
-        Item {
-            Layout.fillWidth: true
-        }
+                text: Qt.formatDateTime(
+                          main.currentDateTime,
+                          "yyyy/MM/dd  HH:mm:ss"
+                      )
 
-        Text {
-            id: dayNameText
+                color: "white"
+                font.pixelSize: 20
 
-            text: Qt.formatDateTime(
-                      main.currentDateTime,
-                      "dddd"
-                  )
+                Layout.alignment: Qt.AlignVCenter
+            }
 
-            color: "white"
-            font.pixelSize: 20
+            Item {
+                Layout.fillWidth: true
+            }
 
-            horizontalAlignment: Text.AlignRight
-            verticalAlignment: Text.AlignVCenter
+            Text {
+                id: dayNameText
+
+                text: Qt.formatDateTime(
+                          main.currentDateTime,
+                          "dddd"
+                      )
+
+                color: "white"
+                font.pixelSize: 20
+
+                Layout.alignment: Qt.AlignVCenter
+            }
         }
     }
 }
