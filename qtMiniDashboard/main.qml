@@ -11,6 +11,7 @@ ApplicationWindow  {
     title: qsTr("Hello World")
 
     property date currentDateTime: new Date()
+    property int currentPageIndex: 0
 
     Timer
     {
@@ -42,6 +43,7 @@ ApplicationWindow  {
         }
     }
 
+    // header
     Rectangle {
         id: headerBackground
 
@@ -90,7 +92,7 @@ ApplicationWindow  {
                 color: "white"
 
                 font.pixelSize: 20
-
+                font.bold: true
                 Layout.alignment: Qt.AlignVCenter
             }
 
@@ -108,12 +110,13 @@ ApplicationWindow  {
 
                 color: "white"
                 font.pixelSize: 20
-
+                font.bold: true
                 Layout.alignment: Qt.AlignVCenter
             }
         }
     }
 
+    // main
     StackLayout {
         id: pagesLayout
 
@@ -197,6 +200,7 @@ ApplicationWindow  {
         }
     }
 
+    //footer
     Rectangle {
         id: footerBackground
 
