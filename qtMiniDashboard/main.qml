@@ -2,6 +2,7 @@ import QtQuick 2.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.14
+import "pages"
 
 ApplicationWindow  {
     id: main
@@ -120,84 +121,86 @@ ApplicationWindow  {
     StackLayout {
         id: pagesLayout
 
-        anchors {
-            top: headerBackground.bottom
-            bottom: footerBackground.top
-            left: parent.left
-            right: parent.right
-        }
+        HomePage{}
 
-        currentIndex: main.currentPageIndex
+//        anchors {
+//            top: headerBackground.bottom
+//            bottom: footerBackground.top
+//            left: parent.left
+//            right: parent.right
+//        }
 
-        Page {
-            background: Rectangle {
-                color: "transparent"
-            }
+//        currentIndex: main.currentPageIndex
 
-            Text {
-                anchors.centerIn: parent
-                text: "صفحه اصلی"
-                color: "#2F80ED"
-                font.pixelSize: 32
-                font.bold: true
-            }
-        }
+//        Page {
+//            background: Rectangle {
+//                color: "transparent"
+//            }
 
-        Page {
-            background: Rectangle {
-                color: "transparent"
-            }
+//            Text {
+//                anchors.centerIn: parent
+//                text: "صفحه اصلی"
+//                color: "#2F80ED"
+//                font.pixelSize: 32
+//                font.bold: true
+//            }
+//        }
 
-            Text {
-                anchors.centerIn: parent
-                text: "مدیریت شارژرها"
-                color: "#2F80ED"
-                font.pixelSize: 32
-                font.bold: true
-            }
-        }
+//        Page {
+//            background: Rectangle {
+//                color: "transparent"
+//            }
 
-        Page {
-            background: Rectangle {
-                color: "transparent"
-            }
+//            Text {
+//                anchors.centerIn: parent
+//                text: "مدیریت شارژرها"
+//                color: "#2F80ED"
+//                font.pixelSize: 32
+//                font.bold: true
+//            }
+//        }
 
-            Text {
-                anchors.centerIn: parent
-                text: "گزارش‌ها"
-                color: "#2F80ED"
-                font.pixelSize: 32
-                font.bold: true
-            }
-        }
+//        Page {
+//            background: Rectangle {
+//                color: "transparent"
+//            }
 
-        Page {
-            background: Rectangle {
-                color: "transparent"
-            }
+//            Text {
+//                anchors.centerIn: parent
+//                text: "گزارش‌ها"
+//                color: "#2F80ED"
+//                font.pixelSize: 32
+//                font.bold: true
+//            }
+//        }
 
-            Text {
-                anchors.centerIn: parent
-                text: "تنظیمات"
-                color: "#2F80ED"
-                font.pixelSize: 32
-                font.bold: true
-            }
-        }
+//        Page {
+//            background: Rectangle {
+//                color: "transparent"
+//            }
 
-        Page {
-            background: Rectangle {
-                color: "transparent"
-            }
+//            Text {
+//                anchors.centerIn: parent
+//                text: "تنظیمات"
+//                color: "#2F80ED"
+//                font.pixelSize: 32
+//                font.bold: true
+//            }
+//        }
 
-            Text {
-                anchors.centerIn: parent
-                text: "درباره ما"
-                color: "#2F80ED"
-                font.pixelSize: 32
-                font.bold: true
-            }
-        }
+//        Page {
+//            background: Rectangle {
+//                color: "transparent"
+//            }
+
+//            Text {
+//                anchors.centerIn: parent
+//                text: "درباره ما"
+//                color: "#2F80ED"
+//                font.pixelSize: 32
+//                font.bold: true
+//            }
+//        }
     }
 
     //footer

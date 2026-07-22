@@ -71,6 +71,7 @@ include CMakeFiles/qtMiniDashboard.dir/flags.make
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/qml.qrc
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: CMakeFiles/qtMiniDashboard_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/main.qml
+qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/pages/HomePage.qml
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Qt/Qt5.14.0/5.14.0/mingw73_32/bin/rcc.exe
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Qt/Qt5.14.0/5.14.0/mingw73_32/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\02_github\01_AminSBU\26_qtMiniDashboard\build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for qml.qrc"
