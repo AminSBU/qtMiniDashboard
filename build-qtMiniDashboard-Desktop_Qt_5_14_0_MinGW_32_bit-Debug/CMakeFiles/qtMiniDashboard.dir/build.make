@@ -71,6 +71,11 @@ include CMakeFiles/qtMiniDashboard.dir/flags.make
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/qml.qrc
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: CMakeFiles/qtMiniDashboard_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/main.qml
+qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/home-64.png
+qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/ev-charger-64.png
+qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/report-50.png
+qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/setting-50.png
+qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/about-50.png
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/pages/HomePage.qml
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Qt/Qt5.14.0/5.14.0/mingw73_32/bin/rcc.exe
 qtMiniDashboard_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Qt/Qt5.14.0/5.14.0/mingw73_32/bin/rcc.exe

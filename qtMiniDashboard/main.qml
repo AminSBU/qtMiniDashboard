@@ -241,11 +241,11 @@ ApplicationWindow  {
 
             Repeater {
                 model: [
-                    "صفحه اصلی",
-                    "شارژرها",
-                    "گزارش‌ها",
-                    "تنظیمات",
-                    "درباره ما"
+                    { title: "صفحه اصلی", icon: "qrc:/new/prefix1/home-64.png" },
+                    { title: "شارژرها",   icon: "qrc:/new/prefix1/ev-charger-64.png" },
+                    { title: "گزارش‌ها",  icon: "qrc:/new/prefix1/report-50.png" },
+                    { title: "تنظیمات",   icon: "qrc:/new/prefix1/setting-50.png" },
+                    { title: "درباره ما", icon: "qrc:/new/prefix1/about-50.png" }
                 ]
 
                 delegate: Rectangle {
@@ -268,6 +268,28 @@ ApplicationWindow  {
 
                         font.pixelSize: 18
                         font.bold: main.currentPageIndex === index
+                    }
+
+                    Row {
+                        anchors.centerIn: parent
+                        spacing: 10
+
+                        Image {
+//                            anchors.horizontalCenter: parent.horizontalCenter
+                            source: modelData.icon
+                            width: 40
+                            height: 40
+                            fillMode: Image.PreserveAspectFit
+                            opacity: main.currentPageIndex === index ? 1.0 : 0.85
+                        }
+
+                        Text {
+                            anchors.verticalCenter: parent.horizontalCenter
+                            text: modelData.title
+                            color: "white"
+                            font.pixelSize: 16
+                            font.bold: main.currentPageIndex === index
+                        }
                     }
 
                     Rectangle {

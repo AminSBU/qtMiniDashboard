@@ -32,5 +32,13 @@ Page {
             font.pixelSize: 20
             Layout.alignment: Qt.AlignHCenter
         }
+
+        Rectangle
+        {
+            Text {
+                id: chargeText
+                text: qsTr("text")
+            }
+        }
     }
 }

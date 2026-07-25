@@ -10,6 +10,11 @@
 	"INPUTS" : 
 	[
 		"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/main.qml",
+		"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/home-64.png",
+		"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/ev-charger-64.png",
+		"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/report-50.png",
+		"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/setting-50.png",
+		"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/about-50.png",
 		"D:/02_github/01_AminSBU/26_qtMiniDashboard/qtMiniDashboard/pages/HomePage.qml"
 	],
 	"LOCK_FILE" : "D:/02_github/01_AminSBU/26_qtMiniDashboard/build-qtMiniDashboard-Desktop_Qt_5_14_0_MinGW_32_bit-Debug/CMakeFiles/qtMiniDashboard_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",

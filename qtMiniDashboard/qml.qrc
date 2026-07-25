@@ -3,4 +3,11 @@
         <file>main.qml</file>
         <file>pages/HomePage.qml</file>
     </qresource>
+    <qresource prefix="/new/prefix1">
+        <file>home-64.png</file>
+        <file>ev-charger-64.png</file>
+        <file>report-50.png</file>
+        <file>setting-50.png</file>
+        <file>about-50.png</file>
+    </qresource>
 </RCC>
