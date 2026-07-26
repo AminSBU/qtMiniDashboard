@@ -12,8 +12,10 @@ Page {
         anchors {
             top: parent.top
             right: parent.right
-            topMargin: 80
+            left: parent.left
+            topMargin: 70 + 10
             rightMargin: 10
+            leftMargin: 10
             horizontalCenter: parent.horizontalCenter
         }
         spacing: 15
@@ -26,19 +28,11 @@ Page {
             Layout.alignment: Qt.AlignHCenter
         }
 
-        Text {
-            text: "به سامانه مدیریت شارژرهای برقی خوش آمدید"
-            color: "#485563"
-            font.pixelSize: 20
-            Layout.alignment: Qt.AlignHCenter
-        }
-
-        Rectangle
-        {
-            Text {
-                id: chargeText
-                text: qsTr("text")
-            }
+        AnimatedImage {
+            width: 200
+            height: 200
+            source: "qrc:/new/prefix1/fan.gif"
+            fillMode: Image.PreserveAspectFit
         }
     }
 }

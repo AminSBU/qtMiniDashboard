@@ -275,7 +275,7 @@ ApplicationWindow  {
                         spacing: 10
 
                         Image {
-//                            anchors.horizontalCenter: parent.horizontalCenter
+                            anchors.verticalCenter: parent.horizontalCenter
                             source: modelData.icon
                             width: 40
                             height: 40
